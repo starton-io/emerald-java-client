@@ -26,13 +26,20 @@ dependencies {
 
 == Development
 
-To build the Emerald Java Client, you first need to update the Emerald gRPC submodule.
+If you want to build your own version of the Emerald Java Client, you first need to update the Emerald gRPC submodule whose depend on the Emerald Java Client.
+
 Original Protobuf definitions are located at: https://github.com/emeraldpay/emerald-grpc
 
-.Update Protobuf definitions:
+.Update Emerald gRPC (Protobuf) submodule:
 ----
 git submodule update --init
-# git commit emerald-grpc -- NOT NEEDED
+----
+
+Then, you can build your Emerald Java Client with gradle:
+
+.Build your client:
+----
+gradle build
 ----
 
 == License
