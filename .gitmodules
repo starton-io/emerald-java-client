@@ -2,3 +2,7 @@
 	path = emerald-grpc
 	url = https://github.com/emeraldpay/emerald-grpc.git
 	branch = master
+[submodule "emerald-java-client"]
+	path = emerald-java-client
+	url = git@github.com:starton-io/emerald-java-client.git
+	branch = master

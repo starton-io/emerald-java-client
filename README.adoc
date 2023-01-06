@@ -12,6 +12,7 @@ Java stubs for public Emerald gRPC APIs.
 
 === Dependency
 
+If you want to use the Emerald Java Client from another project, include those lines into your `build.gradle` file :
 [source,groovy,subs="attributes"]
 ----
 repositories {
@@ -25,12 +26,13 @@ dependencies {
 
 == Development
 
+To build the Emerald Java Client, you first need to update the Emerald gRPC submodule.
 Original Protobuf definitions are located at: https://github.com/emeraldpay/emerald-grpc
 
 .Update Protobuf definitions:
 ----
 git submodule update --init
-git commit emerald-grpc
+# git commit emerald-grpc -- NOT NEEDED
 ----
 
 == License
