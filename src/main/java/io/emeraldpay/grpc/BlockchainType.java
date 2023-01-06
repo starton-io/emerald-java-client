@@ -8,6 +8,7 @@ public enum BlockchainType {
         if (chain == Chain.ETHEREUM
                 || chain == Chain.ETHEREUM_CLASSIC
                 || chain == Chain.MATIC
+                || chain == Chain.BSC
                 || chain == Chain.FANTOM
                 || chain == Chain.RSK
                 || chain == Chain.TESTNET_KOVAN
