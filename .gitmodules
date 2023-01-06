@@ -1,3 +1,4 @@
-[submodule "api-definitions"]
-	path = api-definitions
+[submodule "emerald-grpc"]
+	path = emerald-grpc
 	url = https://github.com/emeraldpay/emerald-grpc.git
+	branch = master

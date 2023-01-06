@@ -29,8 +29,8 @@ Original Protobuf definitions are located at: https://github.com/emeraldpay/emer
 
 .Update Protobuf definitions:
 ----
-git submodule update --remote
-git commit api-definitions
+git submodule update --init
+git commit emerald-grpc
 ----
 
 == License
