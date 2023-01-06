@@ -43,6 +43,7 @@ If you want to build your own version of the Emerald Java Client, you first need
 Original Protobuf definitions are located at: https://github.com/emeraldpay/emerald-grpc
 
 .Update Emerald gRPC (Protobuf) submodule:
+[source,bash]
 ----
 git submodule update --init
 ----
@@ -50,6 +51,7 @@ git submodule update --init
 Then, you can build your Emerald Java Client with gradle:
 
 .Build your client:
+[source,bash]
 ----
 gradle build
 ----
