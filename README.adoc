@@ -8,6 +8,18 @@ image:https://codecov.io/gh/emeraldpay/emerald-java-client/branch/master/graph/b
 
 Java stubs for public Emerald gRPC APIs.
 
+== Requirements
+
+----
+Java:        java 11.0.17 2022-10-18 LTS (openjdk@11)
+Gradle:      7.6
+Kotlin:      1.7.10
+Groovy:      3.0.13
+Ant:         Apache Ant(TM) version 1.10.11 compiled on July 10 2021
+JVM:         17.0.5 (Homebrew 17.0.5+0)
+OS:          Mac OS X 13.1 aarch64 (M1)
+----
+
 == Usage
 
 === Dependency
