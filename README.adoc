@@ -45,7 +45,12 @@ Original Protobuf definitions are located at: https://github.com/emeraldpay/emer
 .Update Emerald gRPC (Protobuf) submodule:
 [source,bash]
 ----
+## IF YOU JUST CLONED THE REPOSITORY :
 git submodule update --init
+
+## IF YOU ALREADY HAVE THE REPOSITORY AND THE EMERALD-GRPC HAS BEEN UPDATED :
+git submodule update --remote
+git commit emerald-grpc
 ----
 
 Then, you can build your Emerald Java Client with gradle:
