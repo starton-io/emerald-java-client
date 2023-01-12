@@ -27,7 +27,7 @@ public enum Chain {
     ETHEREUM_CLASSIC(101, "ETC", "Ethereum Classic"),
     FANTOM(102, "FTM", "Fantom"),
     BSC(103, "BSC", "Binance Smart Chain"),
-    AVAX(103, "AVAX", "Avalanche C-Chain"),
+    AVAX(104, "AVAX", "Avalanche C-Chain"),
 
     //LIGHTNING(1001, "BTC_LN", "Bitcoin Lightning"),
     MATIC(1002, "MATIC", "Polygon Matic"),
