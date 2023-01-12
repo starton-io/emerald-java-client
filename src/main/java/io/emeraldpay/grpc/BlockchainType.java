@@ -9,7 +9,7 @@ public enum BlockchainType {
                 || chain == Chain.ETHEREUM_CLASSIC
                 || chain == Chain.MATIC
                 || chain == Chain.BSC
-//                || chain == Chain.AVAX
+                || chain == Chain.AVAX
                 || chain == Chain.FANTOM
                 || chain == Chain.RSK
                 || chain == Chain.TESTNET_KOVAN
@@ -17,6 +17,10 @@ public enum BlockchainType {
                 || chain == Chain.TESTNET_GOERLI
                 || chain == Chain.TESTNET_RINKEBY
                 || chain == Chain.TESTNET_ROPSTEN
+                || chain == Chain.TESTNET_SEPOLIA
+                || chain == Chain.TESTNET_BSC
+                || chain == Chain.TESTNET_MUMBAI
+                || chain == Chain.TESTNET_FUJI
         ) {
             return BlockchainType.ETHEREUM;
         }
