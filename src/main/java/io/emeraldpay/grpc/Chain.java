@@ -25,13 +25,23 @@ public enum Chain {
     // Networks with tokens
     ETHEREUM(100, "ETH", "Ethereum"),
     ETHEREUM_CLASSIC(101, "ETC", "Ethereum Classic"),
-    FANTOM(102, "FTM", "Fantom"),
+    FANTOM(102, "FTM", "Fantom Opera"),
     BSC(103, "BSC", "Binance Smart Chain"),
     AVAX(104, "AVAX", "Avalanche C-Chain"),
+    ARBITRUM(105, "ARBITRUM", "Arbitrum Mainnet"),
+    MOONBEAM(106, "GLMR", "Moonbeam Mainnet"),
+    CELO(107, "CELO", "Celo Mainnet"),
+    EVMOS(108, "EVMOS", "Evmos Mainnet"),
+    CRONOS(109, "AVAX", "Cronos Mainnet Beta"),
+    NEON(110, "NEON", "Neon EVM Mainnet"),
+
 
     //LIGHTNING(1001, "BTC_LN", "Bitcoin Lightning"),
     MATIC(1002, "MATIC", "Polygon Matic"),
     RSK(1003, "RSK", "Bitcoin RSK"),
+    OPTIMISM(1004, "OPTIMISM", "Optimism Mainnet"),
+    EOS(1005, "EOS", "EOS Mainnet"),
+    MILKOMEDA(1006, "MADA", "Milkomeda C1 Mainnet"),
 
     // Testnets
     TESTNET_MORDEN(10001, "MORDEN", "Morden Testnet"),
@@ -41,14 +51,18 @@ public enum Chain {
     TESTNET_GOERLI(10005, "GOERLI", "Goerli Testnet"),
     TESTNET_ROPSTEN(10006, "ROPSTEN", "Ropsten Testnet"),
     TESTNET_RINKEBY(10007, "RINKEBY", "Rinkeby Testnet"),
-
-    TESTNET_SEPOLIA(10008, "SEP", "Sepolia Testnet"),
-
-    TESTNET_BSC(10009, "BSC", "Binance Smart Chain Testnet"),
-
-    TESTNET_MUMBAI(10010, "MATIC", "Polygon Mumbai Testnet"),
-
-    TESTNET_FUJI(10011, "AVAX", "Avalanche Fuji Testnet");
+    TESTNET_SEPOLIA(10008, "SEPOLIA", "Sepolia Testnet"),
+    TESTNET_BSC(10009, "TESTNET_BSC", "Binance Smart Chain Testnet"),
+    TESTNET_MUMBAI(10010, "TESTNET_MUMBAI", "Polygon Mumbai Testnet"),
+    TESTNET_FUJI(10011, "TESTNET_FUJI", "Avalanche Fuji Testnet"),
+    TESTNET_OPTIMISM(10012, "TESTNET_OPTIMISM", "Optimism Testnet"),
+    TESTNET_ARBITRUM(10013, "TESTNET_ARBITRUM", "Arbitrum Testnet"),
+    TESTNET_FANTOM(10014, "TESTNET_FANTOM", "Fantom Testnet"),
+    TESTNET_EVMOS(10015, "TESTNET_EVMOS", "Evmos Testnet"),
+    TESTNET_CRONOS(10016, "TESTNET_CRONOS", "Cronos Testnet"),
+    TESTNET_NEON(10017, "TESTNET_NEON", "Neon EVM Testnet"),
+    TESTNET_MILKOMEDA(10018, "TESTNET_MILKOMEDA", "Milkomeda C1 Testnet"),
+    TESTNET_RSK(10019, "TESTNET_RSK", "Bitcoin RSK Testnet");
 
     private final int id;
     private final String code;
