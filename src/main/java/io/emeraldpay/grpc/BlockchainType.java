@@ -12,6 +12,15 @@ public enum BlockchainType {
                 || chain == Chain.AVAX
                 || chain == Chain.FANTOM
                 || chain == Chain.RSK
+                || chain == Chain.ARBITRUM
+                || chain == Chain.MOONBEAM
+                || chain == Chain.CELO
+                || chain == Chain.EVMOS
+                || chain == Chain.CRONOS
+                || chain == Chain.NEON
+                || chain == Chain.OPTIMISM
+                || chain == Chain.EOS
+                || chain == Chain.MILKOMEDA
                 || chain == Chain.TESTNET_KOVAN
                 || chain == Chain.TESTNET_MORDEN
                 || chain == Chain.TESTNET_GOERLI
@@ -21,6 +30,14 @@ public enum BlockchainType {
                 || chain == Chain.TESTNET_BSC
                 || chain == Chain.TESTNET_MUMBAI
                 || chain == Chain.TESTNET_FUJI
+                || chain == Chain.TESTNET_OPTIMISM
+                || chain == Chain.TESTNET_ARBITRUM
+                || chain == Chain.TESTNET_FANTOM
+                || chain == Chain.TESTNET_EVMOS
+                || chain == Chain.TESTNET_CRONOS
+                || chain == Chain.TESTNET_NEON
+                || chain == Chain.TESTNET_MILKOMEDA
+                || chain == Chain.TESTNET_RSK
         ) {
             return BlockchainType.ETHEREUM;
         }
