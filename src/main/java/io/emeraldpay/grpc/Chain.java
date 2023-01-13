@@ -28,12 +28,11 @@ public enum Chain {
     FANTOM(102, "FTM", "Fantom Opera"),
     BSC(103, "BSC", "Binance Smart Chain"),
     AVAX(104, "AVAX", "Avalanche C-Chain"),
-    ARBITRUM(105, "ARBITRUM", "Arbitrum Mainnet"),
-    MOONBEAM(106, "GLMR", "Moonbeam Mainnet"),
-    CELO(107, "CELO", "Celo Mainnet"),
-    EVMOS(108, "EVMOS", "Evmos Mainnet"),
-    CRONOS(109, "AVAX", "Cronos Mainnet Beta"),
-    NEON(110, "NEON", "Neon EVM Mainnet"),
+    MOONBEAM(105, "GLMR", "Moonbeam Mainnet"),
+    CELO(106, "CELO", "Celo Mainnet"),
+    EVMOS(107, "EVMOS", "Evmos Mainnet"),
+    CRONOS(108, "AVAX", "Cronos Mainnet Beta"),
+    NEON(109, "NEON", "Neon EVM Mainnet"),
 
 
     //LIGHTNING(1001, "BTC_LN", "Bitcoin Lightning"),
@@ -42,6 +41,8 @@ public enum Chain {
     OPTIMISM(1004, "OPTIMISM", "Optimism Mainnet"),
     EOS(1005, "EOS", "EOS Mainnet"),
     MILKOMEDA(1006, "MADA", "Milkomeda C1 Mainnet"),
+    ARBITRUM(1007, "ARBITRUM", "Arbitrum Mainnet"),
+    NOVA(1008, "NOVA", "Arbitrum Nova"),
 
     // Testnets
     TESTNET_MORDEN(10001, "MORDEN", "Morden Testnet"),

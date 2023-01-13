@@ -13,6 +13,7 @@ public enum BlockchainType {
                 || chain == Chain.FANTOM
                 || chain == Chain.RSK
                 || chain == Chain.ARBITRUM
+                || chain == Chain.NOVA
                 || chain == Chain.MOONBEAM
                 || chain == Chain.CELO
                 || chain == Chain.EVMOS
